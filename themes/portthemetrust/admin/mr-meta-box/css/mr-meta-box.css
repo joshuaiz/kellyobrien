@@ -1,0 +1,136 @@
+/*
+Description:	mr meta box
+Version:		0.3
+Author:			Miha Rekar
+Author URI:		http://mr.si/
+*/
+
+.mr-meta-box {
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.mr-meta-box-panel {
+	display: block;
+	float: left;
+	overflow: hidden;
+	border-width: 0 1px;
+	border-style: solid;
+	border-left-color: white;
+	border-right-color: #DFDFDF;
+}
+
+.mr-meta-box-panel:first-child {
+	border-left-width: 0;
+}
+
+.mr-meta-box-panel:last-child {
+	border-right-width: 0;
+}
+
+.mr-meta-box label {
+	font-weight: bold;
+	margin: 2px;
+}
+
+.mr-meta-box label:not(.no-block) {
+	display: block;
+}
+
+.mr-meta-box input {
+	vertical-align: middle;
+}
+
+.mr-meta-box-field {
+	padding: 6px 10px 8px;
+	border-width: 1px 0;
+	border-style: solid;
+	border-top-color: white;
+	border-bottom-color: #DFDFDF;
+}
+
+.mr-meta-box-field:first-child {
+	border-top-width: 0;
+}
+
+.mr-meta-box-field:last-child {
+	border-bottom-width: 0;
+}
+
+.mr-meta-box .color-picker {
+	display: none;
+}
+
+.mr-meta-box .mr-range-text {
+	margin-left: 10px;
+}
+
+.mr-meta-box .mr-range-slider {
+	display: none;
+	width: 160px;
+}
+
+.mr-meta-box .mr-image {
+	display: block;
+	max-width: 250px;
+	margin: 6px 2px;
+}
+
+.mr-meta-box .wp-editor-container {
+	background-color: #fff;
+}
+
+.mr-meta-box ul {
+	margin: 0 2px;
+}
+
+.mr-meta-box li {
+	margin: 0;
+}
+
+.mr-meta-box .mr-radio label, .mr-meta-box .mr-checkbox label {
+	font-weight: normal;
+}
+
+.mr-map {
+	height: 200px;
+	margin-top: 5px;	
+}
+
+#ui-datepicker-div {
+	display: none;
+}
+
+.ui-timepicker-div .ui-widget-header {
+	margin-bottom: 6px;
+}
+
+.ui-timepicker-div dl {
+	text-align: left;
+	margin: 0;
+}
+
+.ui-timepicker-div dl dt {
+	height: 25px;
+	margin-bottom: -25px;
+}
+
+.ui-timepicker-div dl dd {
+	margin: 0 10px 10px 65px;
+}
+
+.ui-timepicker-div td {
+	font-size: 90%;
+}
+
+.ui-tpicker-grid-label {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ui-timepicker-div .ui-slider {
+	width: 125px;
+}
