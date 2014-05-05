@@ -29,7 +29,7 @@
 			<div class="inside">
 			<?php if($featured_pages_links_enabled): ?>	
 			<a class="thumb" href="<?php the_permalink() ?>" rel="bookmark" ><?php the_post_thumbnail("ttrust_one_third_cropped", array('class' => 'thumb', 'alt' => ''.get_the_title().'', 'title' => ''.get_the_title().'')); ?></a>			
-			<a href="<?php the_permalink() ?>" rel="bookmark" ><span class="title"><span><?php the_title(); ?></span></span></a>
+			<!-- <a href="<?php the_permalink() ?>" rel="bookmark" ><span class="title"><span><?php the_title(); ?></span></span></a> -->
 			<?php the_excerpt(); ?>
 			<?php else: ?>	
 			<?php the_post_thumbnail("ttrust_one_third_cropped", array('class' => '', 'alt' => ''.get_the_title().'', 'title' => ''.get_the_title().'')); ?>						

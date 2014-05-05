@@ -237,3 +237,9 @@ jQuery(document).ready(function($){
 	$('a.Life').append('<sup>3</sup>');
   // pass
 });
+
+// jQuery(document).ready(function($){
+// 	$('#box img').hover(function {
+// 		$(this).
+// 	})
+// });

@@ -12,6 +12,7 @@
 	<?php if ($page_description) : ?>
 		<p><?php echo $page_description; ?></p>
 	<?php endif; ?>
+	<div class="grace-intro"><p>Grace is my favorite word. I also happen to like Zamboni, but turns out like Kleenex it’s a brand name somebody owns. Grace is something we all have and we should unleash more. This is my way of sharing it. The <a href="http://dictionary.reference.com/browse/grace?s=t" target="_blank">definition of grace</a>. I don’t proclaim to be a proficient writer,  please see #5.</p></div>
 	</div>
 </div>
 <?php endif; ?>
