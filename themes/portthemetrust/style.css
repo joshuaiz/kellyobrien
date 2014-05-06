@@ -926,13 +926,13 @@ h2.extraSpacing { padding-top: 10px; }
 #homeBanner {	
 	width: 100%;
 	margin: 0 !important;	
-	background: #1e3859;
+	background: #aaa !important;
 	/*min-height: 600px !important;*/
 	font-size: 80%;
 }
 
 #homeBanner #bannerText {	
-	margin: 170px 24% 150px !important;
+	margin: 21% 24% 150px !important;
 	text-align: left;	
 	display: inline-block;
 	font-size: 75% !important;
@@ -943,7 +943,11 @@ h2.extraSpacing { padding-top: 10px; }
 }
 
 #homeBanner .heading-main {
-	color: #f2bb16;
+	/*color: #f2bb16;*/
+	/*color: #f5f5f5;*/
+	color: #666;
+	text-transform: uppercase;
+	font-size: 3rem;
 }
 
 .home-text {
@@ -977,6 +981,8 @@ h2.extraSpacing { padding-top: 10px; }
 #homeBanner #bannerText .button {
 	font-size: .6em;	
 }
+
+
 
 #downButton {
 	background: transparent url(images/arrow_down.png) center center no-repeat;
@@ -1017,12 +1023,12 @@ h2.extraSpacing { padding-top: 10px; }
 	position: absolute;
 	right: 0;
 	bottom: 0;	*/
-	text-align: center;
+	text-align: right;
 padding: 0 0;
 display: block;
 position: relative;
 right: 0;
-bottom: 0;
+bottom: 1.5em;
 margin-top: 1em;
 }
 
@@ -1044,7 +1050,8 @@ margin-top: 1em;
 }
 
 .homeSection .sectionHead h3 {
-	font-size: 2.8em;	
+	/*font-size: 2.8em;*/
+	font-size: 2em;
 	margin: 0 0 0 0;
 	clear: both;	
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1062,14 +1069,25 @@ margin-top: 1em;
 	position: relative;		
 }
 
-#projects.homeSection .sectionHead, #homePosts.homeSection .sectionHead {	
+#projects.homeSection .sectionHead {	
 	/*text-align: left;*/
 	text-align: center;	
 }
 
+#projects.homeSection h4 {
+	font-size: 1rem;
+}
+
+#homePosts.homeSection .sectionHead span {
+	float: left;
+	text-align: left;
+	/*font-size: 1.4rem;*/
+	width: 100%;
+}
+
 .homeSection .sectionHead p{
 	font-size: 1em;
-	margin: 1em 0;	
+	margin: .5em 0;	
 }
 
 .homeSection .sectionHead .inside{	
@@ -1078,8 +1096,18 @@ margin-top: 1em;
 	position: relative;	
 }
 
+.home .posts-description {
+	text-align: left;
+	width: 50%;
+	float: left;
+}
+
 .home-section {
 	margin: 2em 0;
+}
+
+.home .posts .wp-post-image {
+	margin-bottom: 1em;
 }
 
 /*Testimonials ------------------*/
@@ -1283,7 +1311,8 @@ margin-top: 1em;
 #homeContent {
 	width: 100%;
 	overflow: hidden;
-	background: #f9f9f9;
+	/*background: #f9f9f9;*/
+	background: #111 !important;
 }
 
 #homeContent .inside{	
@@ -1291,18 +1320,28 @@ margin-top: 1em;
 }
 
 #homeContent.homeSection {
-	padding: 120px 0 120px!important;	
+	padding: 120px 0 120px!important;
 }
 
 #homeContent.homeSection .inside{
 	padding: 0 30px !important;
 	max-width: 1000px;
 	margin: 0 auto;
+	text-align: center;
+	font-size: 2rem;
 }
 
 #homeContent.homeSection p {
 	margin-bottom: 30px !important;
 	font-size: 1em;
+}
+
+#homeContent.homeSection p a {
+	color: #f2bb16 !important;
+}
+
+#homeContent.homeSection p a.button {
+	color: #fff !important;
 }
 
 #homeContent {
